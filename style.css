@@ -1,0 +1,44 @@
+.roam-block, .rm-block-input {
+  font-family: 'Consolas', 'Calendas Plus', 'Noto Sans Mono', 'Lora', 'Droid Serif', 'Georgia', serif !important;
+  font-size: 1.3rem !important;
+  line-height: 1.4em;
+  background-color: transparent;
+  padding-bottom: 1.1em;
+}
+
+.rm-level1, .rm-heading-level-1>.rm-block__self .rm-block__input {
+    font-weight: 400;
+    font-size: 1.8em !important;
+    font-family: "Inter",sans-serif !important;
+}
+
+.rm-level2, .rm-heading-level-2>.rm-block__self .rm-block__input {
+    font-weight: 400;
+    font-size: 1.6em !important;
+}
+
+.rm-level3, .rm-heading-level-3>.rm-block__self .rm-block__input {
+    font-weight: 400;
+    font-size: 1.4em !important;
+    font-family: "Inter",sans-serif !important;
+    color: #5C7080 !important;
+}
+
+
+.rm-bullet {
+  visibility: hidden;
+}
+
+.rm-multibar {
+  visibility: hidden;
+}
+
+
+div .roam-block {
+    color: #7A7979 !important; /* text a little less black*/
+}
+
+div.rm-block-input {
+  caret-color: rgb(255,3,3) !important; /* caret in dark red and the editing line text in black*/
+  color: black; 
+}
